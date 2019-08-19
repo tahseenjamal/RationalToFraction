@@ -29,13 +29,17 @@ public class Rational {
 	        
 	    	double a = Math.floor(b);
 	        
-	        double aux = h1; 
+	        double tempVariable = h1; 
 	        
 	        h1 = a * h1 + h2; 
 	        
-	        h2 = aux;
+	        h2 = tempVariable;
 	        
-	        aux = k1; k1 = a*k1+k2; k2 = aux;
+	        tempVariable = k1; 
+          
+          k1 = a*k1+k2; 
+          
+          k2 = tempVariable;
 	    
 	        b = 1/(b-a);
 	    
