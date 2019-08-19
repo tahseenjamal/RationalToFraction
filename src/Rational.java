@@ -19,9 +19,9 @@ public class Rational {
 		
 	    double tolerance = 1.0E-6;
 	    
-	    double h1=1; double h2=0;
+	    double h1 = 1, h2=0;
 	    
-	    double k1=0; double k2=1;
+	    double k1 = 0, k2=1;
 	    
 	    double b = decimalNum;
 	    
